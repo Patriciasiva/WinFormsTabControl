@@ -35,7 +35,7 @@
             txtdiferenca1 = new TextBox();
             txtfim1 = new TextBox();
             label2 = new Label();
-            txtIncio1 = new TextBox();
+            txtInicio1 = new TextBox();
             label1 = new Label();
             tabPage2 = new TabPage();
             btnstart2 = new Button();
@@ -67,7 +67,7 @@
             tabPage1.Controls.Add(txtdiferenca1);
             tabPage1.Controls.Add(txtfim1);
             tabPage1.Controls.Add(label2);
-            tabPage1.Controls.Add(txtIncio1);
+            tabPage1.Controls.Add(txtInicio1);
             tabPage1.Controls.Add(label1);
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
@@ -119,12 +119,12 @@
             label2.TabIndex = 2;
             label2.Text = "Fim";
             // 
-            // txtIncio1
+            // txtInicio1
             // 
-            txtIncio1.Location = new Point(71, 42);
-            txtIncio1.Name = "txtIncio1";
-            txtIncio1.Size = new Size(125, 23);
-            txtIncio1.TabIndex = 1;
+            txtInicio1.Location = new Point(71, 42);
+            txtInicio1.Name = "txtInicio1";
+            txtInicio1.Size = new Size(125, 23);
+            txtInicio1.TabIndex = 1;
             // 
             // label1
             // 
@@ -229,7 +229,7 @@
 
         private TabControl tabControl1;
         private TabPage tabPage1;
-        private TextBox txtIncio1;
+        private TextBox txtInicio1;
         private Label label1;
         private TabPage tabPage2;
         private Button btnStart;
